@@ -1,1 +1,1 @@
-# Curso_Formacao_Cientista_de_Dados_com_R_e_Python
+# Curso Formação Cientista de Dados com R e Python
