@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 
 #Lendo o iris.csv
-base = pd.read_csv('../Dados/iris.csv')
+base = pd.read_csv('../../Dados/iris.csv')
 
 #Imprimindo a quantidade de linhas e a contidade de colunas no arquivo
 print('Tolal de linhas: {linhas} \nTotal de colunas: {colunas}'.format(linhas = str(base.shape[0]), colunas =  str(base.shape[1])))

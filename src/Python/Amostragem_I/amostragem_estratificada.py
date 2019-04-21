@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 import numpy as np
 
 #Lendo o iris.csv
-base = pd.read_csv('../Dados/iris.csv')
+base = pd.read_csv('../../Dados/iris.csv')
 
 #Imprimindo a quantidade de linhas e a contidade de colunas no arquivo
 print('Tolal de linhas: {linhas} Total de colunas: {colunas}'.format(linhas = str(base.shape[0]), colunas =  str(base.shape[1])))
@@ -23,7 +23,7 @@ print('Total das amostras estatificadas:\n{totalEstatificada}'.format(totalEstat
 
 
 #Lendo o iris.csv
-base_infert = pd.read_csv('../Dados/infert.csv')
+base_infert = pd.read_csv('../../Dados/infert.csv')
 
 print('Contador de elementos agrupados por Education :\n{totalEducation}'.format(totalEducation = base_infert['education'].value_counts()))
 
